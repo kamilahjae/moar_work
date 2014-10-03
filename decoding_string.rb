@@ -14,6 +14,7 @@ string = 'Hello%20%22World%22%20%2D%201%20is%20%3E0%2E'
   "%5F" => "_",
 }
 
+# Need to fix
   def self.decode(string)
     string.split("").each do |i|
     String.new() << @@string_key[:"#{i}"]
